@@ -1,0 +1,6 @@
+Create database ass1_2;
+use ass1_2;
+create table owner(username char(20),password char(20));
+insert into owner values("sar","sar123");
+insert into owner values("sa","sa123");
+select* from owner;
